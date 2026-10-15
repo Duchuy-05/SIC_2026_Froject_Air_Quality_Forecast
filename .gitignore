@@ -1,0 +1,21 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Python (ml-service)
+__pycache__/
+*.pyc
+*.py[cod]
+venv/
+.venv/
+.env
+*.csv
+data/*.parquet
+*.joblib
+*.parquet
+.gemini/
+.github/prompts/
+.github/skills/
+.agents/skills/
+design-system/
