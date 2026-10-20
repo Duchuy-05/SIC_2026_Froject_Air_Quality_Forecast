@@ -792,8 +792,8 @@ export const Forecast: React.FC = () => {
             <div className="flex items-center gap-2">
               <h1 className="text-2xl sm:text-3xl font-black text-slate-900 dark:text-white tracking-tight">
                 {lang === 'vi'
-                  ? 'Dự báo Chất lượng Không khí (AQI AI)'
-                  : 'AI Air Quality Forecast (AQI)'}
+                  ? 'Dự báo Chất lượng Không khí'
+                  : 'AI Air Quality Forecast (AQI)'
               </h1>
               <span className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-[11px] font-bold bg-orange-100 dark:bg-orange-950/40 text-orange-600 dark:text-orange-400 border border-orange-200 dark:border-orange-800">
                 <Cpu className="w-3 h-3" />
